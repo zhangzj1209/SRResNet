@@ -2,10 +2,10 @@
 
 **Copyright (c) 2023 Zhengjie Zhang (zhangzhengjie@mail.ustc.edu.cn)**  
 
-We are very grateful to Dr. Han Wang, who graduated from the University of Science and Technology of China (*USTC*), for providing the early ideas for this project, and some of the content we learn from her [work](https://academic.oup.com/gji/article-abstract/233/3/1546/6991217?redirectedFrom=fulltext&login=false).   
+We are very grateful to Dr. Han Wang, who graduated from the University of Science and Technology of China (*USTC*), for providing the early ideas for this project, and some of the content we learn from her [work](https://academic.oup.com/gji/article/233/3/1546/6991217?login=true).   
 
 - This is the core code of the project **Traffic seismic data denoising based on machine learning**.  
-- We do not share the data fro other purposes.
+- We do not share the data for other purposes.
 - **Note** that the use of `UNet.py` in this package still needs to be optimized, and we are still debugging and modifying it.   
 - If you have any questions, please contact zhangzhengjie@mail.ustc.edu.cn.
 
@@ -28,7 +28,7 @@ set your working directory at `/data/`
 cd /data/
 git clone https://github.com/zhangzj1209/SRResNet.git
 unzip SRResNet.zip
-cd SRResNet
+cd SRResNet/
 ```
 
 ## Description 
@@ -42,4 +42,4 @@ mkdir -r predict_label  ! used to store prediction label
 ```
 
 - If you want to use this network to do your work, please modify the contents of `My_Dataset` in `dataset.py`.
-- The number of residual block layers of the network can also be modified in line 29 of `SRResNet.py`.
+- The number of residual block layers of the network can also be modified in **line 29** of `SRResNet.py`.
