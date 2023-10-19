@@ -2,12 +2,11 @@
 
 **Copyright (c) 2023 Zhengjie Zhang (zhangzhengjie@mail.ustc.edu.cn)**  
 
-We are very grateful to Dr. Han Wang, who graduated from the University of Science and Technology of China (*USTC*), for providing the early ideas for this project, and some of the content we learn from her [work](https://academic.oup.com/gji/article/233/3/1546/6991217?login=true).   
+We would like to thank Dr. H. Wang for her inspiration and help in this work.
 
 - This is the core code of the project **Traffic seismic data denoising based on machine learning**.  
 - We do not share the data for other purposes.
 - **Note** that the use of `UNet.py` in this package still needs to be optimized, and we are still debugging and modifying it.   
-- If you have any questions, please contact zhangzhengjie@mail.ustc.edu.cn.
 
 
 ## Network Architecture
